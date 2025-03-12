@@ -1,6 +1,6 @@
 /* 🎨 Palette de verts */
 :root {
-    --vert-pale: #A5D6A7;  /* Vert pâle */
+    --vert-pale: #A5D6A7;
     --vert-fonce: #2E7D32;
     --vert-moyen: #4CAF50;
     --blanc: #ffffff;
@@ -10,11 +10,57 @@
 /* 🌿 Style global */
 body {
     font-family: 'Arial', sans-serif;
-    text-align: center;
-    background-color: var(--vert-pale);  /* Fond vert pâle */
-    color: var(--vert-fonce);
+    text-align: left;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    background-color: var(--gris-clair);
+}
+
+/* 💼 Container principal */
+.container {
+    display: flex;
+    width: 100%;
+}
+
+/* 🖼️ Barre latérale */
+.sidebar {
+    width: 250px;
+    background-color: var(--vert-pale);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.sidebar h2 {
+    color: var(--vert-fonce);
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin: 10px 0;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: var(--vert-fonce);
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.sidebar a:hover {
+    color: var(--vert-moyen);
+}
+
+/* 📄 Contenu principal */
+main {
+    flex-grow: 1;
+    padding: 20px;
 }
 
 /* 🏡 En-tête */
@@ -25,40 +71,9 @@ header {
     font-size: 24px;
 }
 
-/* 📄 Contenu principal */
-main {
-    padding: 20px;
-}
-
-/* 📜 Liste de liens */
-ul {
-    list-style: none;
-    padding: 0;
-}
-
-li {
-    margin: 15px 0;
-}
-
-/* 🔗 Liens */
-a {
-    display: inline-block;
-    text-decoration: none;
-    font-weight: bold;
-    color: var(--blanc);
-    background-color: var(--vert-moyen);
-    padding: 10px 20px;
-    border-radius: 5px;
-    transition: background 0.3s ease-in-out;
-}
-
-a:hover {
-    background-color: var(--vert-fonce);
-}
-
-/* 📝 Titres */
-h1 {
-    color: var(--vert-pale);  /* Titre en vert pâle */
+/* 📜 Sections */
+section {
+    margin-bottom: 20px;
 }
 
 /* 📩 Pied de page */
