@@ -1,26 +1,3 @@
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-}
-header {
-    background-color: #333;
-    color: white;
-    padding: 20px;
-}
-main {
-    margin: 20px;
-}
-a {
-    text-decoration: none;
-    color: blue;
-    font-weight: bold;
-}
-a:hover {
-    color: darkblue;
-}
 /* 🎨 Palette de verts */
 :root {
     --vert-fonce: #2E7D32;
@@ -89,4 +66,5 @@ footer {
 
 footer a {
     color: var(--blanc);
+    text-decoration: underline;
 }
