@@ -21,3 +21,72 @@ a {
 a:hover {
     color: darkblue;
 }
+/* 🎨 Palette de verts */
+:root {
+    --vert-fonce: #2E7D32;
+    --vert-moyen: #4CAF50;
+    --vert-clair: #A5D6A7;
+    --blanc: #ffffff;
+    --gris-clair: #f5f5f5;
+}
+
+/* 🌿 Style global */
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: var(--gris-clair);
+    color: var(--vert-fonce);
+    margin: 0;
+    padding: 0;
+}
+
+/* 🏡 En-tête */
+header {
+    background-color: var(--vert-fonce);
+    color: var(--blanc);
+    padding: 20px;
+    font-size: 24px;
+}
+
+/* 📄 Contenu principal */
+main {
+    padding: 20px;
+}
+
+/* 📜 Liste de liens */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 15px 0;
+}
+
+/* 🔗 Liens */
+a {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--blanc);
+    background-color: var(--vert-moyen);
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+}
+
+a:hover {
+    background-color: var(--vert-fonce);
+}
+
+/* 📩 Pied de page */
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: var(--vert-fonce);
+    color: var(--blanc);
+}
+
+footer a {
+    color: var(--blanc);
+}
