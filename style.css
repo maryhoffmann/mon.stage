@@ -77,3 +77,23 @@ footer {
     text-align: center;
     border-radius: 15px; /* 🌟 Arrondi du footer */
 }
+/* 📌 Style pour la nouvelle section */
+.extra-info {
+    background-color: var(--vert-pale);
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 15px; /* Arrondi des bords */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.extra-info h3 {
+    color: var(--vert-fonce);
+    margin-bottom: 10px;
+}
+
+.extra-info p {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
