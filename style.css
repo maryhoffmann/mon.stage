@@ -1,8 +1,8 @@
 /* 🎨 Palette de verts */
 :root {
+    --vert-pale: #A5D6A7;  /* Vert pâle */
     --vert-fonce: #2E7D32;
     --vert-moyen: #4CAF50;
-    --vert-clair: #A5D6A7;
     --blanc: #ffffff;
     --gris-clair: #f5f5f5;
 }
@@ -11,7 +11,7 @@
 body {
     font-family: 'Arial', sans-serif;
     text-align: center;
-    background-color: var(--gris-clair);
+    background-color: var(--vert-pale);  /* Fond vert pâle */
     color: var(--vert-fonce);
     margin: 0;
     padding: 0;
@@ -54,6 +54,11 @@ a {
 
 a:hover {
     background-color: var(--vert-fonce);
+}
+
+/* 📝 Titres */
+h1 {
+    color: var(--vert-pale);  /* Titre en vert pâle */
 }
 
 /* 📩 Pied de page */
